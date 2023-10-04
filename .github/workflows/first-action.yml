@@ -24,5 +24,7 @@ jobs:
         # the run key specifies the command that should be executed in the command line
         run: echo "Hello World!"
       - name: Print goodbye
-        run: echo "Done - bye!"
+        run: |
+          echo "Done - bye!"
+          echo "multiple-line shell command"
       
